@@ -47,6 +47,9 @@ sparcs_new_table1 = TableOne(sparcs_new, columns=sparcs_new_columns,
 print(sparcs_new_table1.tabulate(tablefmt = "fancy_grid"))
 sparcs_new_table1.to_csv('descriptives-nydischarges/data/sparcs_new.csv')
 
+
+
+
 #Data indexes: atlas:(['UNNAMED_0', 'X', 'TYPE', 'ZIPID', 'FIPS_X', 'GISJOIN', 'FIPS_Y', 'ADI_NATRANK', 'ADI_STATERNK'], dtype='object')
 ###Data indexes: sparcs: (['HEALTH_SERVICE_AREA', 'HOSPITAL_COUNTY','OPERATING_CERTIFICATE_NUMBER', 'FACILITY_ID', 'FACILITY_NAME','AGE_GROUP', 'ZIP_CODE_3_DIGITS', 'GENDER', 
 #'RACE', 'ETHNICITY','LENGTH_OF_STAY', 'TYPE_OF_ADMISSION', 'PATIENT_DISPOSITION','DISCHARGE_YEAR', 'CCS_DIAGNOSIS_CODE', 'CCS_DIAGNOSIS_DESCRIPTION',
